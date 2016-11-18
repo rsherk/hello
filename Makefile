@@ -1,4 +1,4 @@
-CPP_FILES := $(wildcard Hello/*.cpp)
+CPP_FILES := Hello/Hello.cpp
 OBJ_FILES := $(addprefix obj/,$(notdir $(CPP_FILES:.cpp=.o)))
 
 hello: $(OBJ_FILES)
