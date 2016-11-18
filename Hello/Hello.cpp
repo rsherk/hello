@@ -2,10 +2,12 @@
 //
 
 #include "stdafx.h"
-
+#include <stdio.h>
 
 int _tmain(int argc, _TCHAR* argv[])
 {
+	int[] i;
+	printf("Value is: %d\n", i[0]);
 	return 0;
 }
 
