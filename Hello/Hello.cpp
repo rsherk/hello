@@ -6,7 +6,7 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	int[] i;
+	int i[1];
 	printf("Value is: %d\n", i[0]);
 	return 0;
 }
